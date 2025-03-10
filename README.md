@@ -163,17 +163,6 @@ When the algorithm is run successfully, it will generate:
 2. Visualizations of the model performance
 3. Predictions for scored files
 
-## Limitations and Future Work
-
-- The current implementation focuses on spectral features. Additional features like time-domain statistics or entropy measures could improve performance.
-- The algorithm assumes standard 30-second epochs, which is the clinical standard for sleep staging.
-- Performance depends on the quality of the EEG recordings and the availability of accurate annotations.
-
-Future improvements could include:
-- Deep learning approaches (CNNs, RNNs) for feature extraction and classification
-- Multi-modal analysis incorporating other physiological signals (EOG, EMG, ECG)
-- Automated artifact detection and removal
-- Transfer learning to improve performance with limited labeled data
 
 ## License
 
